@@ -1,7 +1,8 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Commerce Diaries"
-theme = "mytheme"  # dummy, we'll use layouts directly
+# theme = "mytheme"  # dummy, we'll use layouts directly
+theme = ""
 disableKinds = ["sitemap", "RSS"]  # optional
 
 # Green colour theme

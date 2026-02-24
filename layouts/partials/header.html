@@ -1,0 +1,10 @@
+<header style="background: white; border-bottom: 2px solid #2ecc71; padding: 1rem 2rem;">
+    <div style="display: flex; align-items: center; justify-content: space-between; max-width: 1200px; margin: auto;">
+        <div style="font-size: 1.8rem; font-weight: 700; color: #2ecc71;">Commerce Diaries</div>
+        <nav>
+            {{ range .Site.Menus.main }}
+                <a href="{{ .URL }}" style="margin-left: 2rem; text-decoration: none; color: #333; font-weight: 500;">{{ .Name }}</a>
+            {{ end }}
+        </nav>
+    </div>
+</header>

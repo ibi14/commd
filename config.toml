@@ -1,0 +1,29 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Commerce Diaries"
+theme = "mytheme"  # dummy, we'll use layouts directly
+disableKinds = ["sitemap", "RSS"]  # optional
+
+# Green colour theme
+[params]
+  description = "Business blog for modern entrepreneurs"
+  author = "Commerce Diaries"
+  googleAnalytics = "UA-XXXXXXXXX-X"  # Replace with your tracking ID later
+
+# Navigation menu
+[[menu.main]]
+  name = "Blogs"
+  url = "/blogs/"
+  weight = 1
+
+[[menu.main]]
+  name = "Search"
+  url = "/search/"
+  weight = 2
+
+[[menu.main]]
+  name = "Sign In"
+  url = "/admin/"   # points to Netlify CMS login
+  weight = 3
+
+# Footer sections (we'll create pages for these)

@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #333;
+    background: #fafafa;
+    line-height: 1.6;
+}
+
+a {
+    color: #2ecc71;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header, footer {
+    width: 100%;
+}
+
+main {
+    min-height: 60vh;
+}
+
+/* Search results styling */
+#search-results {
+    margin-top: 2rem;
+}
+.result-item {
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+.result-item h3 {
+    margin-bottom: 0.5rem;
+}
+.result-item p {
+    color: #666;
+}

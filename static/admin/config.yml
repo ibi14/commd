@@ -1,9 +1,16 @@
 backend:
   name: git-gateway
-  branch: main   # or master, depending on your default branch
+  repo: Ibii14/CommD  # YOUR GitHub username/repository name
+  branch: main        # or 'master' – check which one your repo uses
+  commit_messages:
+    create: 'Create {{collection}} “{{slug}}”'
+    update: 'Update {{collection}} “{{slug}}”'
+    delete: 'Delete {{collection}} “{{slug}}”'
+    uploadMedia: '[skip ci] Upload “{{path}}”'
+    deleteMedia: '[skip ci] Delete “{{path}}”'
 
-media_folder: "static/images/uploads"
-public_folder: "/images/uploads"
+media_folder: "static/images/uploads"    # Where uploaded images go
+public_folder: "/images/uploads"         # URL path for images
 
 collections:
   - name: "blog"
